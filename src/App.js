@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.searchYouTube('Kittens in mittens');
+    this.searchYouTube('JavaScript');
   }
 
   onVideoSelect = selectedVideo => {
